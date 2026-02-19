@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="hii"
+    tools:context=".BroSisFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_firstsong"
+            android:layout_margin="16dp"
+            android:text="1) O Behna Meri Raksha Kar Bhai Ka ..."
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="2) Brother Sister Meri Behna"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="3) Sun Ladli Main Hu ..."
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="4) Papa Mere Papa"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="5) GrandParents kavitechi ool"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="6) Pooja Hain Tuzko Maa"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="7) BahinaBaai full song"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="8) BestFriend song"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="9) Bhai Behen Ka Pyar"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="10) Dost Jaisi Behna"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="11) Khari Biscuit"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="12) Kyu Chodke Humko Papa Chale Gaye"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="13) Dost Jaisi Behna"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="14) Paayi Fufat Rutal Kaata"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="15) Maaza Bhau Raya"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="16) Mera Aasman Hain Papa"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="17) Mera Bhai Tu Meri Jaan Hain"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="18) Mummy Papa Aapko Shukriya"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="19) Maa - Papa"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="20) Pyare Dadaji Hain"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="21) Tera Yaar Hu Main"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="22) Teri Ungli Pakad Ke..."
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="23) Teri Yaari..."
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="24) Yaara Teri Yaari"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="25)Yeh Dosti Hum Nahi Todenge"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="26) AAji Marathi Kavita"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="27) Best Song On Sister"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
+

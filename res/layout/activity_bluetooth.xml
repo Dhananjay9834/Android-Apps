@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_shape"
+    tools:context=".BluetoothActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth"
+        android:textColor="#FDB136"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="30sp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/icon_bluetooth"
+        android:layout_gravity="center"
+        android:layout_marginTop="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_bluetooth_turn_on"
+            android:text="Turn On"
+            android:textColor="#C62828"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_margin="13dp"
+            android:backgroundTint="#3FDBEA"
+            android:onClick="turnOn"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_bluetooth_get_visible"
+            android:text="Get Visible"
+            android:textColor="#C62828"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_margin="13dp"
+            android:backgroundTint="#3FDBEA"
+            tools:ignore="DuplicateIds"
+            android:onClick="getVisible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_bluetooth_paired_devices"
+            android:text="Paired Device"
+            android:textColor="#C62828"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_margin="13dp"
+            android:backgroundTint="#3FDBEA"
+            android:onClick="pairedDevices"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_bluetooth_turn_off"
+            android:text="Turn Off"
+            android:textColor="#C62828"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:layout_margin="13dp"
+            android:backgroundTint="#3FDBEA"
+            android:onClick="turnOff"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paired Devices"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_margin="15dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_bluetooth_list"/>
+
+
+</LinearLayout>

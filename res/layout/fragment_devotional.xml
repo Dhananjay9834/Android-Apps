@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="hii"
+    tools:context=".DevotionalFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_fsong"
+            android:text="1) Ye Gatha Mahabali Hanumat Ki"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_ssong"
+            android:text="2) Achutyam Keshavam Krushn..."
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_tsong"
+            android:text="3) Vyarth Chinta Hain Jeevan Ki..."
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_fosong"
+            android:text="4) Hanuman Chalisa"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_fisong"
+            android:text="5) Haripath"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_sisong"
+            android:text="6) Hum Katha Sunate Ram Sakal..."
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_sesong"
+            android:text="7) Mauli Abhang"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_eisong"
+            android:text="8) Radha Krishn Serial All Songs"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_nisong"
+            android:text="9) Radha Krishn Soundtrack"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_tesong"
+            android:text="10) Ram Bhajan By Shree Hanuman"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_elsong"
+            android:text="11) Ram Siya Ram"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_twsong"
+            android:text="12) Ramayan Ringtone"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_thsong"
+            android:text="13) Shree Hanuman Chalisa"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_fousong"
+            android:text="14) Shree Ram Sita Ram"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15) Aigiri Nandini..."
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16) Dev Malhari..."
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="17) Ekdantaya Vakrtundaya"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="18) Gau Nako re Gau Nako Kisna"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="19) Gurucharitrache Kara Parayan"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20) Jaganyache Deva..."
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="21) Maajhi Pandhirichi Maay"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="22) Mauli Mauli lyrix"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="23) New Ganpati Song"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="24) Vari Chukaaychi Naay"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="25) Waat Disu De ga deva"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="26) Awghe Garje Pandharpur"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="27) Tulsi Maal Hi Swashanchi"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="28) Mulich Navhe Re Kanha"
+            android:layout_margin="16dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium" />
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
+

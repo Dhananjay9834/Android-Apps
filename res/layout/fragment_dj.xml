@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DjFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_firstsong"
+            android:layout_margin="16dp"
+            android:text="1) Jarichya Cholila Sonyach Batan"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="2) Ratri Ardhya Ratri Dj Song"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="3) Baap To Baap Rahega"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="4) Patlacha Bailgada"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="5) Sutla Maza Padar"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="6) Tumha Baghun Tol Maza Gela Dj Song"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="7) Hridayi Vasant Fultana"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="8) Janu Vina Rangach Nay"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="9) Dhagala Lagli Kala"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="10) Are Diwano Muze Pehchano"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="11) Navin Popat Ha Dj Song"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="12) Yeh Jo Teri Paylo ki Chan..."
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="13) Hai Zumka Wali Por"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="14) Khuda Gawah"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="15) Koi Mil Gaya Dj Song"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="16) Dekhne Walo Ne Kya.."
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="17) Trending Song Dj Mashup"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
+

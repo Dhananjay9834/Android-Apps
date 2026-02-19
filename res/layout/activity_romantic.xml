@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    tools:context=".RomanticActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Now Playing.."
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:textColor="#000"
+        android:textSize="17sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_music_songname"
+        android:text="Song Name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:fontFamily="serif-monospace"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/iv_music_songcover"
+        android:src="@drawable/baseline_music_note_24"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:id="@+id/tv_music_starttime"
+            android:text="00:00"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <SeekBar
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/sb_music_songprogress"
+            android:progressTint="#000"
+            android:thumbTint="@color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.50"
+            android:id="@+id/tv_music_totaltime"
+            android:text="00:00"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/ib_music_share"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="#08A7B6"
+            android:contentDescription="share"
+            android:src="@drawable/icon_share" />
+
+        <ImageView
+            android:id="@+id/ib_music_repeat"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="#08A7B6"
+            android:contentDescription="repeat"
+            android:src="@drawable/icon_repeat" />
+
+        <ImageView
+            android:id="@+id/ib_music_like"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="#08A7B6"
+            android:contentDescription="like"
+            android:src="@drawable/img_1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/ib_music_previous"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="#08A7B6"
+            android:contentDescription="previous"
+            android:src="@drawable/icon_previous" />
+
+        <ImageView
+            android:id="@+id/ib_music_backward"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="#08A7B6"
+            android:contentDescription="backward"
+            android:src="@drawable/icon_backward" />
+
+        <ImageView
+            android:id="@+id/ib_music_play"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:backgroundTint="#08A7B6"
+            android:contentDescription="play"
+            android:src="@drawable/icon_play" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:id="@+id/ib_music_forward"
+            android:src="@drawable/icon_forward"
+            android:contentDescription="forward"
+            android:backgroundTint="#08A7B6"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:id="@+id/ib_music_next"
+            android:src="@drawable/icon_next"
+            android:contentDescription="next"
+            android:backgroundTint="#08A7B6"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

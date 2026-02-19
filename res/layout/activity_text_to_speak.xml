@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_shape"
+    tools:context=".TextToSpeakActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text To Speak"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        />
+
+    <EditText
+        android:autofillHints="hi"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:id="@+id/et_papa_text"
+        android:layout_margin="16sp"
+        android:background="@drawable/edit_bg"
+        android:hint="Enter Text Here"
+        android:textColorHint="#D84315"
+        android:textStyle="bold|italic"
+        android:textSize="16sp"
+        android:textColor="#C50707"
+        android:fontFamily="sans-serif-condensed-light"
+        android:padding="16sp"
+        android:inputType="textMultiLine"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set your Pitch"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#0CB8A3"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="45dp"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sb_pitch"
+        android:min="0"
+        android:max="100"
+        android:progress="50"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set your Speed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#0CB8A3"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="45dp"/>
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sb_speed"
+        android:min="0"
+        android:max="100"
+        android:progress="50"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:id="@+id/btn_speak"
+        android:text="Speak"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#BF1D1D"
+        android:backgroundTint="#E6930C"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
